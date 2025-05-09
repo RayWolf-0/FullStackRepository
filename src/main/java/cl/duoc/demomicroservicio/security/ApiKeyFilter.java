@@ -13,7 +13,7 @@ import java.util.Collections;
 
 public class ApiKeyFilter extends OncePerRequestFilter {
 
-    private static final String API_KEY_HEADER_NAME = "Llave Api";
+    private static final String API_KEY_HEADER_NAME = "X-API-KEY";
     private final String apiKey;
 
     public ApiKeyFilter(String apiKey) {
